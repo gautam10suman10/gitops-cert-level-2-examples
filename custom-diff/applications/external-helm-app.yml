@@ -25,7 +25,7 @@ spec:
   - group: apps
     kind: Deployment
     jqPathExpressions:
-    - .metadata.annotations.creation
+    -.metadata.annotations.creation
 
  
   # Sync policy
